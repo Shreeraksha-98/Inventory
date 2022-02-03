@@ -1,26 +1,16 @@
 # Diabetes Prediction: 
 
 ## Table of Content
-  * [Demo](#demo)
   * [Overview](#overview)
-  * [Deployement on Heroku](#deployement-on-heroku)
   * [Directory Tree](#directory-tree)
   * [Future scope of project](#future-scope)
 
-
-## Demo
-Link: [https://prediction-of-diabetes-api.herokuapp.com/predict](https://prediction-of-diabetes-api.herokuapp.com/predict)
-
-
 ## Overview
-This is a Flask web app which predicts if a person has diabetes based on different parameters.
-
-
-## Deployement on Heroku
-Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
-(https://heroku.com)
-
-Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
+* Data Base and table for Vehicles Inventory is created, which has the type of vehicles and number of vehicles availble.
+* Different tables for Customer and Rental details are created which can be accesed by the website.
+* Python app.py is constructed for adding customer details or rental details and viewing inventory or customer details or rental details.
+* Python is connected with the database using pyodbc
+* Built on flask web framework.
 
 ## Directory Tree 
 ```
@@ -28,16 +18,19 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 │   ├── css
 ├── template
 │   ├── home.html
+    ├── See_cust_details.html
+    ├── See_rental_details.html
+    ├── Add_rental.html
+    ├── Customer_info.html
+    ├── Vehicles_list.html
 ├── Procfile
 ├── README.md
 ├── app.py
-├── diabetes_prediction.ipynb
-├── dia_pred.pkl
+├── SQLQuery
 ├── requirements.txt
 ```
 
 ## Future Scope
 
-* Use multiple Algorithms
 * Optimize Flask app.py
 * Front-End 
